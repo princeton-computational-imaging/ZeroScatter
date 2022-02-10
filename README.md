@@ -1,6 +1,8 @@
 # ZeroScatter: Domain Transfer for Long Distance Imaging and Vision through Scattering Media
 ### [Project Page](https://light.princeton.edu/publication/zeroscatter/) | [Paper](https://openaccess.thecvf.com/content/CVPR2021/html/Shi_ZeroScatter_Domain_Transfer_for_Long_Distance_Imaging_and_Vision_Through_CVPR_2021_paper.html) | [Pretrained ckpts](https://drive.google.com/drive/folders/1Pv4n_pj8ZmBWtWcgmpuZyUqFBIcJy6sV?usp=sharing)
 
+[Zheng Shi](https://zheng-shi.github.io/), [Ethan Tseng](https://ethan-tseng.github.io), [Mario Bijelic](http://mariobijelic.de/wordpress/), [Werner Ritter](), [Felix Heide](https://www.cs.princeton.edu/~fheide/)
+
 If you find our work useful in your research, please cite:
 ```
 @article{shi2021zeroscatter,
@@ -25,6 +27,9 @@ We include 3 bash scripts for training purpose:
 - train_0.sh: performs training of RGB2Gated model, which is later used for indirect supervision based on gated captures.
 - train_1.sh: performs training of the ZeroScatter translation block.
 - train_2.sh: performs training of the ZeroScatter consistency block.
+
+## License
+Our code is licensed under BSL-1. By downloading the software, you agree to the terms of this License. The data in the folder 'tfrecord_example/' based on the [DENSE Dataset](https://www.uni-ulm.de/en/in/driveu/projects/dense-datasets/).
 
 ## Questions
 If there is anything unclear, please feel free to reach out to me at zhengshi[at]princeton[dot]edu.
